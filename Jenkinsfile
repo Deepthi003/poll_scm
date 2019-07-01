@@ -17,6 +17,7 @@ pipeline {
                 echo 'Deploying....'
                 echo 'hostname'
                 echo 'whoami'
+                echo 'ifconfig'
             }
         }
     }
