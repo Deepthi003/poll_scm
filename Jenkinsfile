@@ -12,13 +12,6 @@ pipeline {
                 echo 'Testing..'
             }
         }
-        stage('Deploy') {
-            steps {
-                echo 'Deploying....'
-                echo 'hostname'
-                echo 'whoami'
-                echo 'ifconfig'
-            }
         }
     }
 }
